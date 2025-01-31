@@ -2,9 +2,9 @@ import React, {useEffect, useRef, useState} from 'react';
 import {memoize, throttle} from "lodash";
 import {getImageMetadataFromDataURL} from "./upload";
 
-export const SPACER_HEIGHT = 16;
+export const SPACER_HEIGHT = 52;
 export const SPACER_BANNER_HEIGHT = 26;
-export const CHANNEL_HEIGHT = 22;
+export const CHANNEL_HEIGHT = 44;
 export const CHANNEL_BANNER_HEIGHT = 30;
 export const CHANNEL_BANNER_WIDTH = 500;
 export const CHANNEL_DEPTH_OFFSET = 11;
